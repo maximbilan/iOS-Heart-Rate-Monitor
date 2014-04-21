@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944EDB4C19059B0600A005AF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944EDB4B19059B0600A005AF /* CoreBluetooth.framework */; };
 		94711C3219054DB700D6B995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94711C3119054DB700D6B995 /* Foundation.framework */; };
 		94711C3419054DB700D6B995 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94711C3319054DB700D6B995 /* CoreGraphics.framework */; };
 		94711C3619054DB700D6B995 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94711C3519054DB700D6B995 /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		944EDB4B19059B0600A005AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		94711C2E19054DB700D6B995 /* ios_heart_rate_monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_heart_rate_monitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94711C3119054DB700D6B995 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94711C3319054DB700D6B995 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -37,7 +39,6 @@
 		94711C4919054DB700D6B995 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94711C4A19054DB700D6B995 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94711C4C19054DB700D6B995 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		94711C5319054DB700D6B995 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9490B3C419054E2400C0B956 /* HeartRateMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateMonitor.h; sourceTree = "<group>"; };
 		9490B3C519054E2400C0B956 /* HeartRateMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateMonitor.m; sourceTree = "<group>"; };
 		9490B3CD1905518000C0B956 /* WaitSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitSpinner.h; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944EDB4C19059B0600A005AF /* CoreBluetooth.framework in Frameworks */,
 				94711C3419054DB700D6B995 /* CoreGraphics.framework in Frameworks */,
 				94711C3619054DB700D6B995 /* UIKit.framework in Frameworks */,
 				94711C3219054DB700D6B995 /* Foundation.framework in Frameworks */,
@@ -78,10 +80,10 @@
 		94711C3019054DB700D6B995 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				944EDB4B19059B0600A005AF /* CoreBluetooth.framework */,
 				94711C3119054DB700D6B995 /* Foundation.framework */,
 				94711C3319054DB700D6B995 /* CoreGraphics.framework */,
 				94711C3519054DB700D6B995 /* UIKit.framework */,
-				94711C5319054DB700D6B995 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

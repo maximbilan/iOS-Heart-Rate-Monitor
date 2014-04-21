@@ -26,10 +26,11 @@
         CGRect rect = [spinnerView bounds];
         spinner.center = CGPointMake(CGRectGetMidX(rect), CGRectGetMidY(rect));
         spinner.hidesWhenStopped = YES;
-        [spinnerView setUserInteractionEnabled:NO];
-        [spinnerView addSubview:spinner];
-        [spinner startAnimating];
     }
+    
+    [spinnerView setUserInteractionEnabled:NO];
+    [spinnerView addSubview:spinner];
+    [spinner startAnimating];
 }
 
 - (void)hide

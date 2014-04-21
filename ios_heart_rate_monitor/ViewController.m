@@ -36,14 +36,18 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [waitSpinner showInView:self.view];
-    [heartRateMonitor startScan];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
     [heartRateMonitor stopScan];
+}
+
+- (IBAction)scanButtonAction:(id)sender
+{
+    [waitSpinner showInView:self.view];
+    [heartRateMonitor startScan];
 }
 
 #pragma mark - HeartRateMonitorDelegate
