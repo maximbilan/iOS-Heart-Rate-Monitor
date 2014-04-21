@@ -25,6 +25,8 @@
 {
     [super viewDidLoad];
     
+    waitSpinner = [[WaitSpinner alloc] init];
+    
     heartRateMonitor = [[HeartRateMonitor alloc] init];
     heartRateMonitor.hrmDelegate = self;
     
@@ -34,6 +36,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [waitSpinner showInView:self.view];
     [heartRateMonitor startScan];
 }
 
@@ -50,7 +53,7 @@
     if (!deviceWasFound) {
         deviceWasFound = YES;
         
-        [waitSpinner showInView:self.view];
+        [waitSpinner hide];
     }
     
     if (data.length > 0) {
