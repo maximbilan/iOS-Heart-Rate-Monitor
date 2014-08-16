@@ -1,6 +1,6 @@
 //
 //  WaitSpinner.h
-//  wymg
+//  ios_heart_rate_monitor
 //
 //  Created by Maxim Bilan on 1/25/14.
 //  Copyright (c) 2014 Maxim. All rights reserved.

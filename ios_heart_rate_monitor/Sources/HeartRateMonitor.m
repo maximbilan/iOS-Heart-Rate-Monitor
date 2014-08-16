@@ -1,6 +1,6 @@
 //
 //  HeartRateMonitor.m
-//  PeachIntelliHealth
+//  ios_heart_rate_monitor
 //
 //  Created by Maxim Bilan on 21/04/14.
 //  Copyright (c) 2014 Maxim Bilan. All rights reserved.
@@ -66,7 +66,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 // Use CBCentralManager to check whether the current platform/hardware supports Bluetooth LE.
 - (BOOL)isLECapableHardware
 {
-    NSString * state = nil;
+    NSString *state = nil;
     switch ([self.manager state]) {
         case CBCentralManagerStateUnsupported:
             state = @"The platform/hardware doesn't support Bluetooth Low Energy.";
@@ -108,7 +108,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
     [self stopScanningTimeoutMonitor];
     
     NSMutableArray *peripherals = [self mutableArrayValueForKey:@"heartRateMonitors"];
-    if(![self.heartRateMonitors containsObject:aPeripheral])
+    if (![self.heartRateMonitors containsObject:aPeripheral])
         [peripherals addObject:aPeripheral];
     
     if (aPeripheral.UUID) {
@@ -128,14 +128,13 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 {
     NSLog(@"Retrieved peripheral: %lu - %@", (unsigned long)[peripherals count], peripherals);
     [self stopScan];
+    
     // If there are any known devices, automatically connect to it.
-    if([peripherals count] >= 1) {
+    if ([peripherals count] >= 1) {
         self.peripheral = [peripherals objectAtIndex:0];
         [self.manager connectPeripheral:self.peripheral
-                                options:[NSDictionary dictionaryWithObject:
-                                         [NSNumber numberWithBool:YES]
-                                                                    forKey:
-                                         CBConnectPeripheralOptionNotifyOnDisconnectionKey]];
+                                options:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:YES]
+                                                                    forKey:CBConnectPeripheralOptionNotifyOnDisconnectionKey]];
         [self startConnectionTimeoutMonitor:self.peripheral];
     }
 }
@@ -153,7 +152,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 
 // Invoked when an existing connection with the peripheral is torn down.
 // Reset local variables
-- (void) centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)aPeripheral error:(NSError *)error
+- (void)centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)aPeripheral error:(NSError *)error
 {
     if (self.peripheral) {
         [self stopConnectionTimeoutMonitor:self.peripheral];
@@ -165,7 +164,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 }
 
 // Invoked when the central manager fails to create a connection with the peripheral.
-- (void) centralManager:(CBCentralManager *)central didFailToConnectPeripheral:(CBPeripheral *)aPeripheral error:(NSError *)error
+- (void)centralManager:(CBCentralManager *)central didFailToConnectPeripheral:(CBPeripheral *)aPeripheral error:(NSError *)error
 {
     NSLog(@"Fail to connect to peripheral: %@ with error = %@", aPeripheral, [error localizedDescription]);
     if (self.peripheral) {
@@ -180,7 +179,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 
 // Invoked upon completion of a -[discoverServices:] request.
 // Discover available characteristics on interested services
-- (void) peripheral:(CBPeripheral *)aPeripheral didDiscoverServices:(NSError *)error
+- (void)peripheral:(CBPeripheral *)aPeripheral didDiscoverServices:(NSError *)error
 {
     for (CBService *aService in aPeripheral.services) {
         NSLog(@"Service found with UUID: %@", aService.UUID);
@@ -204,7 +203,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 
 // Invoked upon completion of a -[discoverCharacteristics:forService:] request.
 // Perform appropriate operations on interested characteristics
-- (void) peripheral:(CBPeripheral *)aPeripheral didDiscoverCharacteristicsForService:(CBService *)service error:(NSError *)error
+- (void)peripheral:(CBPeripheral *)aPeripheral didDiscoverCharacteristicsForService:(CBService *)service error:(NSError *)error
 {
     if ([service.UUID isEqual:[CBUUID UUIDWithString:@"180D"]]) {
         for (CBCharacteristic *aChar in service.characteristics) {
@@ -251,7 +250,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 }
 
 // Update UI with heart rate data received from device
-- (void) updateWithHRMData:(NSData *)data
+- (void)updateWithHRMData:(NSData *)data
 {
     const uint8_t *reportData = [data bytes];
     uint16_t bpm = 0;
@@ -259,7 +258,8 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
     if ((reportData[0] & 0x01) == 0) {
         // uint8 bpm
         bpm = reportData[1];
-    } else {
+    }
+    else {
         // uint16 bpm
         bpm = CFSwapInt16LittleToHost(*(uint16_t *)(&reportData[1]));
     }
@@ -272,7 +272,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 
 // Invoked upon completion of a -[readValueForCharacteristic:] request
 // or on the reception of a notification/indication.
-- (void) peripheral:(CBPeripheral *)aPeripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error
+- (void)peripheral:(CBPeripheral *)aPeripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error
 {
     // Updated value for heart rate measurement received
     if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:@"2A37"]]) {
@@ -284,8 +284,8 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
     }
     // Value for body sensor location received
     else if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:@"2A38"]]) {
-        NSData * updatedValue = characteristic.value;
-        uint8_t* dataPointer = (uint8_t*)[updatedValue bytes];
+        NSData *updatedValue = characteristic.value;
+        uint8_t *dataPointer = (uint8_t *)[updatedValue bytes];
         if (dataPointer) {
             uint8_t location = dataPointer[0];
             NSString*  locationString;

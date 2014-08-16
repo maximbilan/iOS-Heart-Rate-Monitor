@@ -1,6 +1,6 @@
 //
 //  HeartRateMonitor.h
-//  PeachIntelliHealth
+//  ios_heart_rate_monitor
 //
 //  Created by Maxim Bilan on 21/04/14.
 //  Copyright (c) 2014 Maxim Bilan. All rights reserved.
