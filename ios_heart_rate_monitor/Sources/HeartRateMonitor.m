@@ -18,7 +18,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 @property (nonatomic, strong) CBPeripheral *peripheral;
 
 // Use CBCentralManager to check whether the current platform/hardware supports Bluetooth LE.
-- (BOOL)isLECapableHardware;
+@property (NS_NONATOMIC_IOSONLY, getter=isLECapableHardware, readonly) BOOL LECapableHardware;
 
 // Scanning timeout
 - (void)startScanningTimeoutMonitor;
@@ -35,7 +35,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 
 @implementation HeartRateMonitor
 
-- (id)init
+- (instancetype)init
 {
     if (self = [super init]) {
         self.heartRateMonitors = [NSMutableArray array];
@@ -49,7 +49,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
 - (void)startScan
 {
     if ([self isLECapableHardware]) {
-        [self.manager scanForPeripheralsWithServices:[NSArray arrayWithObject:[CBUUID UUIDWithString:@"180D"]] options:nil];
+        [self.manager scanForPeripheralsWithServices:@[[CBUUID UUIDWithString:@"180D"]] options:nil];
         [self startScanningTimeoutMonitor];
     }
 }
@@ -113,7 +113,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
     
     if (aPeripheral.UUID) {
         // Retrieve already known devices
-        [self.manager retrievePeripherals:[NSArray arrayWithObject:(id)aPeripheral.UUID]];
+        [self.manager retrievePeripherals:@[(id)aPeripheral.UUID]];
     }
     else {
         NSLog(@"Peripheral UUID is null");
@@ -131,10 +131,9 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
     
     // If there are any known devices, automatically connect to it.
     if ([peripherals count] >= 1) {
-        self.peripheral = [peripherals objectAtIndex:0];
+        self.peripheral = peripherals[0];
         [self.manager connectPeripheral:self.peripheral
-                                options:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:YES]
-                                                                    forKey:CBConnectPeripheralOptionNotifyOnDisconnectionKey]];
+                                options:@{CBConnectPeripheralOptionNotifyOnDisconnectionKey: @YES}];
         [self startConnectionTimeoutMonitor:self.peripheral];
     }
 }
