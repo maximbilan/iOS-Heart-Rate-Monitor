@@ -6,6 +6,7 @@ Based on https://github.com/liquidx/CoreBluetoothPeripheral and https://github.c
 <br><br>
 <b>How to use:</b>
 <br>
+<br>
 Add to your project source files: <br>
 <pre>
 HeartRateMonitor.h
