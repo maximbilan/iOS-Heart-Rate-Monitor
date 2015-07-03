@@ -6,12 +6,12 @@ Based on https://github.com/liquidx/CoreBluetoothPeripheral and https://github.c
 
 ## How to use
 
-Add to your project source files: <br>
+Add to your project the next source files: <br>
 <pre>
 HeartRateMonitor.h
 HeartRateMonitor.m
 </pre>
-You should use the HeartRateMonitorDelegate protocol.<br>
+You should use the <i>HeartRateMonitorDelegate</i> protocol.<br>
 For example:<br>
 <pre>
 @interface ViewController : UIViewController &#60;HeartRateMonitorDelegate&#62;
