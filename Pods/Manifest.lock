@@ -1,0 +1,10 @@
+PODS:
+  - WaitSpinner (0.1.1)
+
+DEPENDENCIES:
+  - WaitSpinner
+
+SPEC CHECKSUMS:
+  WaitSpinner: 61e2629a25e5e43b44d331daddaa3926bc7858cc
+
+COCOAPODS: 0.37.2

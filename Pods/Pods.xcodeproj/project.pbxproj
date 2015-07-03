@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F621A0C497D4698565A6F2 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDE1CBDA1401EA5A7CA3475 /* Pods-dummy.m */; };
+		5C1D7DDDFD1C1FD130D9B875 /* WaitSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B7E3A52F5B2A32D2939B5A /* WaitSpinner.m */; };
+		697502BB98CE7DABE460064C /* WaitSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCE757535D4AFC9BD5BBF3B /* WaitSpinner.h */; };
+		8AD9432CD8128335ACC26019 /* Pods-WaitSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B211D30796D22948F06C1 /* Pods-WaitSpinner-dummy.m */; };
+		9BD155D16948AD06C570EB0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6841F29CFFCD5E8B3EEC86DF /* Foundation.framework */; };
+		EB1F17B08EA705E791B01795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6841F29CFFCD5E8B3EEC86DF /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8396FAB619E92B596AC1D435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E61F6DBC2F973DD820A61D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FC7F20B4667BC4073A4A07B;
+			remoteInfo = "Pods-WaitSpinner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		404D023BD00620D6C8ADDD59 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		432CE96C282E3059B2E3C958 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A38B6CA3D7E7A30293CB87D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4E0B211D30796D22948F06C1 /* Pods-WaitSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaitSpinner-dummy.m"; sourceTree = "<group>"; };
+		6841F29CFFCD5E8B3EEC86DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B68E46FF9D801DE207DC77C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		7DEBFE30833B07CFB0ECF887 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FCE757535D4AFC9BD5BBF3B /* WaitSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WaitSpinner.h; path = ios_wait_spinner/Sources/WaitSpinner.h; sourceTree = "<group>"; };
+		83C1187655D85E2C26ABB22B /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E30D2715484E7D2344144BD /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		ADB8B8DBE762C37BFC8E181F /* Pods-WaitSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaitSpinner-prefix.pch"; sourceTree = "<group>"; };
+		B1744D0630F6B5A505FB5C8C /* Pods-WaitSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaitSpinner-Private.xcconfig"; sourceTree = "<group>"; };
+		BDDE1CBDA1401EA5A7CA3475 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E3AB273C953456D10FAB8DF8 /* libPods-WaitSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaitSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B7E3A52F5B2A32D2939B5A /* WaitSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WaitSpinner.m; path = ios_wait_spinner/Sources/WaitSpinner.m; sourceTree = "<group>"; };
+		ED51E013333A819C3E8CFBCC /* Pods-WaitSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaitSpinner.xcconfig"; sourceTree = "<group>"; };
+		ED6F6B2B19AAE44AB6ABCF06 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710030D9267FD63D16F6EBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD155D16948AD06C570EB0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797EE204F0F32560B5FCEBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1F17B08EA705E791B01795 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4A2088DB20E8B81D48E9DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED51E013333A819C3E8CFBCC /* Pods-WaitSpinner.xcconfig */,
+				B1744D0630F6B5A505FB5C8C /* Pods-WaitSpinner-Private.xcconfig */,
+				4E0B211D30796D22948F06C1 /* Pods-WaitSpinner-dummy.m */,
+				ADB8B8DBE762C37BFC8E181F /* Pods-WaitSpinner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-WaitSpinner";
+			sourceTree = "<group>";
+		};
+		2956A9B7066F67481102B894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E366DE9B3B6AE3AE10DA28BD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA88EFF7A95ED6AF12B8C4C /* WaitSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				7FCE757535D4AFC9BD5BBF3B /* WaitSpinner.h */,
+				E3B7E3A52F5B2A32D2939B5A /* WaitSpinner.m */,
+				1B4A2088DB20E8B81D48E9DD /* Support Files */,
+			);
+			path = WaitSpinner;
+			sourceTree = "<group>";
+		};
+		34AE70160A11FB4BE7FE8995 = {
+			isa = PBXGroup;
+			children = (
+				432CE96C282E3059B2E3C958 /* Podfile */,
+				2956A9B7066F67481102B894 /* Frameworks */,
+				94C62F548319FF16F68459DE /* Pods */,
+				598CFD0D46072AC3EE709830 /* Products */,
+				A127CBF39A5604EA936F06C1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		598CFD0D46072AC3EE709830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				404D023BD00620D6C8ADDD59 /* libPods.a */,
+				E3AB273C953456D10FAB8DF8 /* libPods-WaitSpinner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FC31BD6268E63E398A0D6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DEBFE30833B07CFB0ECF887 /* Pods-acknowledgements.markdown */,
+				83C1187655D85E2C26ABB22B /* Pods-acknowledgements.plist */,
+				BDDE1CBDA1401EA5A7CA3475 /* Pods-dummy.m */,
+				9E30D2715484E7D2344144BD /* Pods-environment.h */,
+				7B68E46FF9D801DE207DC77C /* Pods-resources.sh */,
+				4A38B6CA3D7E7A30293CB87D /* Pods.debug.xcconfig */,
+				ED6F6B2B19AAE44AB6ABCF06 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		94C62F548319FF16F68459DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BA88EFF7A95ED6AF12B8C4C /* WaitSpinner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A127CBF39A5604EA936F06C1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76FC31BD6268E63E398A0D6E /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E366DE9B3B6AE3AE10DA28BD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6841F29CFFCD5E8B3EEC86DF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C542CC123FD84616CC71C4B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697502BB98CE7DABE460064C /* WaitSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FC7F20B4667BC4073A4A07B /* Pods-WaitSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2231AC46AC3EBFBC6DA75C2 /* Build configuration list for PBXNativeTarget "Pods-WaitSpinner" */;
+			buildPhases = (
+				FAD375312A15EADE3C9F1972 /* Sources */,
+				797EE204F0F32560B5FCEBB3 /* Frameworks */,
+				C542CC123FD84616CC71C4B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WaitSpinner";
+			productName = "Pods-WaitSpinner";
+			productReference = E3AB273C953456D10FAB8DF8 /* libPods-WaitSpinner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A0C0E3A5C42344086865C7C1 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C716331046F0B4F852F07EEB /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				66036DDC9808ED6A6D7C67F7 /* Sources */,
+				710030D9267FD63D16F6EBA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1CBDD05D18E659A6B26E548 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 404D023BD00620D6C8ADDD59 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E61F6DBC2F973DD820A61D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 7C9DCD2ADD527FC54BF78254 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34AE70160A11FB4BE7FE8995;
+			productRefGroup = 598CFD0D46072AC3EE709830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C0E3A5C42344086865C7C1 /* Pods */,
+				0FC7F20B4667BC4073A4A07B /* Pods-WaitSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66036DDC9808ED6A6D7C67F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F621A0C497D4698565A6F2 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD375312A15EADE3C9F1972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD9432CD8128335ACC26019 /* Pods-WaitSpinner-dummy.m in Sources */,
+				5C1D7DDDFD1C1FD130D9B875 /* WaitSpinner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1CBDD05D18E659A6B26E548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WaitSpinner";
+			target = 0FC7F20B4667BC4073A4A07B /* Pods-WaitSpinner */;
+			targetProxy = 8396FAB619E92B596AC1D435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		069FD584AA653F2E86AB605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A38B6CA3D7E7A30293CB87D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F3A62356992C3509EF7D321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1744D0630F6B5A505FB5C8C /* Pods-WaitSpinner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WaitSpinner/Pods-WaitSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		28EA6BC755DA72FEA72F4007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1744D0630F6B5A505FB5C8C /* Pods-WaitSpinner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WaitSpinner/Pods-WaitSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		505AAF5200257AB375C985CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6F6B2B19AAE44AB6ABCF06 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B4DC6F5434A42C638ED44BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0E16F006DACDD09121C6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C9DCD2ADD527FC54BF78254 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E16F006DACDD09121C6B5 /* Debug */,
+				B4DC6F5434A42C638ED44BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2231AC46AC3EBFBC6DA75C2 /* Build configuration list for PBXNativeTarget "Pods-WaitSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EA6BC755DA72FEA72F4007 /* Debug */,
+				1F3A62356992C3509EF7D321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C716331046F0B4F852F07EEB /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069FD584AA653F2E86AB605F /* Debug */,
+				505AAF5200257AB375C985CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E61F6DBC2F973DD820A61D5 /* Project object */;
+}
