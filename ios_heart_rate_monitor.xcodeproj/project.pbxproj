@@ -19,7 +19,6 @@
 		94711C4B19054DB700D6B995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94711C4A19054DB700D6B995 /* ViewController.m */; };
 		94711C4D19054DB700D6B995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94711C4C19054DB700D6B995 /* Images.xcassets */; };
 		9490B3C619054E2400C0B956 /* HeartRateMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490B3C519054E2400C0B956 /* HeartRateMonitor.m */; };
-		9490B3CF1905518000C0B956 /* WaitSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490B3CE1905518000C0B956 /* WaitSpinner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +40,6 @@
 		94711C4C19054DB700D6B995 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9490B3C419054E2400C0B956 /* HeartRateMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateMonitor.h; sourceTree = "<group>"; };
 		9490B3C519054E2400C0B956 /* HeartRateMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateMonitor.m; sourceTree = "<group>"; };
-		9490B3CD1905518000C0B956 /* WaitSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitSpinner.h; sourceTree = "<group>"; };
-		9490B3CE1905518000C0B956 /* WaitSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitSpinner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +88,6 @@
 		94711C3719054DB700D6B995 /* ios_heart_rate_monitor */ = {
 			isa = PBXGroup;
 			children = (
-				9490B3CB1905518000C0B956 /* Additional */,
 				9490B3C319054E2400C0B956 /* Sources */,
 				94711C4019054DB700D6B995 /* AppDelegate.h */,
 				94711C4119054DB700D6B995 /* AppDelegate.m */,
@@ -123,23 +119,6 @@
 				9490B3C519054E2400C0B956 /* HeartRateMonitor.m */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		9490B3CB1905518000C0B956 /* Additional */ = {
-			isa = PBXGroup;
-			children = (
-				9490B3CC1905518000C0B956 /* WaitSpinner */,
-			);
-			path = Additional;
-			sourceTree = "<group>";
-		};
-		9490B3CC1905518000C0B956 /* WaitSpinner */ = {
-			isa = PBXGroup;
-			children = (
-				9490B3CD1905518000C0B956 /* WaitSpinner.h */,
-				9490B3CE1905518000C0B956 /* WaitSpinner.m */,
-			);
-			path = WaitSpinner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +187,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9490B3CF1905518000C0B956 /* WaitSpinner.m in Sources */,
 				94711C4B19054DB700D6B995 /* ViewController.m in Sources */,
 				9490B3C619054E2400C0B956 /* HeartRateMonitor.m in Sources */,
 				94711C4219054DB700D6B995 /* AppDelegate.m in Sources */,
