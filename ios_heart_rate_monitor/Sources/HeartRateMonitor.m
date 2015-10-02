@@ -110,10 +110,10 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
     NSMutableArray *peripherals = [self mutableArrayValueForKey:@"heartRateMonitors"];
     if (![self.heartRateMonitors containsObject:aPeripheral])
         [peripherals addObject:aPeripheral];
-    
-    if (aPeripheral.UUID) {
+	
+    if (aPeripheral.identifier) {
         // Retrieve already known devices
-        [self.manager retrievePeripherals:@[(id)aPeripheral.UUID]];
+		[self.manager retrievePeripheralsWithIdentifiers:@[aPeripheral.identifier]];
     }
     else {
         NSLog(@"Peripheral UUID is null");
@@ -192,9 +192,9 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
         if ([aService.UUID isEqual:[CBUUID UUIDWithString:@"180A"]]) {
             [aPeripheral discoverCharacteristics:nil forService:aService];
         }
-        
+		
         /* GAP (Generic Access Profile) for Device Name */
-        if ([aService.UUID isEqual:[CBUUID UUIDWithString:CBUUIDGenericAccessProfileString]]) {
+        if ([aService.UUID isEqual:[CBUUID UUIDWithString:@"1800"]]) {
             [aPeripheral discoverCharacteristics:nil forService:aService];
         }
     }
@@ -227,7 +227,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
         }
     }
     
-    if ([service.UUID isEqual:[CBUUID UUIDWithString:CBUUIDGenericAccessProfileString]]) {
+    if ([service.UUID isEqual:[CBUUID UUIDWithString:@"1800"]]) {
         for (CBCharacteristic *aChar in service.characteristics) {
             // Read device name
             if ([aChar.UUID isEqual:[CBUUID UUIDWithString:CBUUIDDeviceNameString]]) {
