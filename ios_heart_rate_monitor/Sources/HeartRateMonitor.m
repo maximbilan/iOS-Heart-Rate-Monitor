@@ -230,7 +230,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
     if ([service.UUID isEqual:[CBUUID UUIDWithString:@"1800"]]) {
         for (CBCharacteristic *aChar in service.characteristics) {
             // Read device name
-            if ([aChar.UUID isEqual:[CBUUID UUIDWithString:CBUUIDDeviceNameString]]) {
+            if ([aChar.UUID isEqual:[CBUUID UUIDWithString:@"0x180F"]]) {
                 [aPeripheral readValueForCharacteristic:aChar];
                 NSLog(@"Found a Device Name Characteristic");
             }
@@ -318,7 +318,7 @@ static const NSTimeInterval HeartRateMonitorConnectingTimeout   = 10.0;
         }
     }
     // Value for device Name received
-    else if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:CBUUIDDeviceNameString]]) {
+    else if ([characteristic.UUID isEqual:[CBUUID UUIDWithString:@"0x180F"]]) {
         NSString * deviceName = [[NSString alloc] initWithData:characteristic.value
                                                       encoding:NSUTF8StringEncoding];
         NSLog(@"Device Name = %@", deviceName);
