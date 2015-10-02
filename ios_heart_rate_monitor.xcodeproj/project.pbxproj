@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40007AD725FAD4991DA848CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA9B3D146AEE89639CFA340 /* libPods.a */; };
+		6DE79A141BBED72600A92C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE79A131BBED72600A92C27 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
 		944EDB4C19059B0600A005AF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944EDB4B19059B0600A005AF /* CoreBluetooth.framework */; };
 		94711C3219054DB700D6B995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94711C3119054DB700D6B995 /* Foundation.framework */; };
 		94711C3419054DB700D6B995 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94711C3319054DB700D6B995 /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DE79A131BBED72600A92C27 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		944EDB4B19059B0600A005AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		94711C2E19054DB700D6B995 /* ios_heart_rate_monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_heart_rate_monitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94711C3119054DB700D6B995 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +102,7 @@
 				94711C4119054DB700D6B995 /* AppDelegate.m */,
 				94711C4319054DB700D6B995 /* Main_iPhone.storyboard */,
 				94711C4619054DB700D6B995 /* Main_iPad.storyboard */,
+				6DE79A131BBED72600A92C27 /* LaunchScreen.storyboard */,
 				94711C4919054DB700D6B995 /* ViewController.h */,
 				94711C4A19054DB700D6B995 /* ViewController.m */,
 				94711C4C19054DB700D6B995 /* Images.xcassets */,
@@ -194,6 +197,7 @@
 				94711C4819054DB700D6B995 /* Main_iPad.storyboard in Resources */,
 				94711C4D19054DB700D6B995 /* Images.xcassets in Resources */,
 				94711C4519054DB700D6B995 /* Main_iPhone.storyboard in Resources */,
+				6DE79A141BBED72600A92C27 /* LaunchScreen.storyboard in Resources */,
 				94711C3C19054DB700D6B995 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
