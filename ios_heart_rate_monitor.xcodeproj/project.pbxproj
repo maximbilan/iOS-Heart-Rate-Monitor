@@ -165,7 +165,7 @@
 		94711C2619054DB700D6B995 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Maxim Bilan";
 			};
 			buildConfigurationList = 94711C2919054DB700D6B995 /* Build configuration list for PBXProject "ios_heart_rate_monitor" */;
@@ -293,6 +293,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -357,6 +358,7 @@
 				GCC_PREFIX_HEADER = "ios_heart_rate_monitor/ios_heart_rate_monitor-Prefix.pch";
 				INFOPLIST_FILE = "ios_heart_rate_monitor/ios_heart_rate_monitor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maximbilan.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,6 +374,7 @@
 				GCC_PREFIX_HEADER = "ios_heart_rate_monitor/ios_heart_rate_monitor-Prefix.pch";
 				INFOPLIST_FILE = "ios_heart_rate_monitor/ios_heart_rate_monitor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maximbilan.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
