@@ -8,8 +8,8 @@ Based on https://github.com/liquidx/CoreBluetoothPeripheral and https://github.c
 
 Add to your project the next source files: <br>
 <pre>
-HeartRateMonitor.h
-HeartRateMonitor.m
+<i>HeartRateMonitor.h
+HeartRateMonitor.m</i>
 </pre>
 You should use the <i>HeartRateMonitorDelegate</i> protocol.<br>
 For example:<br>
