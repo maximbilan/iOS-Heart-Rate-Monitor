@@ -1,7 +1,7 @@
 iOS Heart Rate Monitor
 ======================
 
-Sample for working with heart rate devices, was tested on alpha mio devices.<br>
+Sample for working with heart rate devices, was tested on Alpha MIO devices.<br>
 Based on https://github.com/liquidx/CoreBluetoothPeripheral and https://github.com/timburks/iOSHeartRateMonitor sources.
 
 ## Using
