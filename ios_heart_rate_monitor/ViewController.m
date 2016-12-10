@@ -21,6 +21,8 @@
 
 @implementation ViewController
 
+#pragma mark - UIViewController Methods
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -43,6 +45,8 @@
     [super viewDidDisappear:animated];
     [heartRateMonitor stopScan];
 }
+
+#pragma mark - Actions
 
 - (IBAction)scanButtonAction:(id)sender
 {
