@@ -1,4 +1,6 @@
 platform :ios, '6.0'
 
-pod 'WaitSpinner'
+target "ios_heart_rate_monitor" do
+    pod 'WaitSpinner'
+end
 

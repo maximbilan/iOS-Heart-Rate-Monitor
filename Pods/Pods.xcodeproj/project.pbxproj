@@ -7,100 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26D9D7098E7916637A776B2734E93F49 /* WaitSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = D96BECA85E3A36DF16866FB4B661B2C2 /* WaitSpinner.h */; };
-		29A6DBC14B814BF746EB6409CE0929D5 /* WaitSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2370F847D88EB855EAD39CBCF567DA /* WaitSpinner-dummy.m */; };
-		83F6239D287F783AC12811675872E1BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD370494A6418B89E8B67476ED46D74 /* Foundation.framework */; };
-		AFF26866CCECF7B449E3B56D9519D75D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD370494A6418B89E8B67476ED46D74 /* Foundation.framework */; };
-		C6DBC4BDB28982664A244E5AD43DCACC /* WaitSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FDD750AB74566CAA3F4C95E9D1576 /* WaitSpinner.m */; };
-		E7BF4AD6874B1B579DFE42103FBE4E92 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F6AF93B9A841DA8C551C063F70BA09 /* Pods-dummy.m */; };
+		09CA7A356F7B3B4E13D5945B741B1ED2 /* WaitSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0FCD2D42DA7CA225B3F70645B86156 /* WaitSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661D8B74FC7DE4D9788915A9530BD7D9 /* WaitSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F8D49F0ED23822DD40F43160BEC785 /* WaitSpinner.m */; };
+		66A181FEDC234FC02595F0FC8F8B6002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5E278E371FC1FAD56BB800CF0A00B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F5F15498C8FC07E72B074CFEB9AF8503 /* WaitSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F832E992A981E1693EC6A22EDEE1F21 /* WaitSpinner-dummy.m */; };
+		FB8B6E9BB190BB19429E68F1D47EBBFE /* Pods-ios_heart_rate_monitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD460CE8002194ED1B398CA066792C /* Pods-ios_heart_rate_monitor-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		921BB4CBFECD1350A61F2BA917727F98 /* PBXContainerItemProxy */ = {
+		3822792156741D38D989C82AA38C6DB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A3716AD8539AE983AB5B74DD5F02ECE9;
+			remoteGlobalIDString = 0C07B5E6CF6F67461FF583C6E6F23BBB;
 			remoteInfo = WaitSpinner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13390D561C5560E02CF6589B6FC5ACA8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D4FDD750AB74566CAA3F4C95E9D1576 /* WaitSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WaitSpinner.m; path = ios_wait_spinner/Sources/WaitSpinner.m; sourceTree = "<group>"; };
-		4BF025857AF13ACF1FB71D978B0FABE3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		6BD370494A6418B89E8B67476ED46D74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		72F45B9E120E28A258B4FF5B5D6CA297 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		8BDF449BA368C29B22A0AC43559DE75C /* WaitSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WaitSpinner-Private.xcconfig"; sourceTree = "<group>"; };
-		9334F229751C833C3B868CAF2C1AA983 /* WaitSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WaitSpinner-prefix.pch"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		C3F6AF93B9A841DA8C551C063F70BA09 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		C4BBFCDAC0CDEBF70EDD06A680C92DEC /* libWaitSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWaitSpinner.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D39AB985732F63AC6DA6EBFB3C88A907 /* WaitSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WaitSpinner.xcconfig; sourceTree = "<group>"; };
-		D96BECA85E3A36DF16866FB4B661B2C2 /* WaitSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WaitSpinner.h; path = ios_wait_spinner/Sources/WaitSpinner.h; sourceTree = "<group>"; };
-		DD2370F847D88EB855EAD39CBCF567DA /* WaitSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WaitSpinner-dummy.m"; sourceTree = "<group>"; };
+		3EEA98F433F6A41A0EC2703CBD794FD4 /* Pods-ios_heart_rate_monitor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios_heart_rate_monitor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CEEE92A01A457B264B6A138E7370F1C /* Pods-ios_heart_rate_monitor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios_heart_rate_monitor-frameworks.sh"; sourceTree = "<group>"; };
+		4CFD460CE8002194ED1B398CA066792C /* Pods-ios_heart_rate_monitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios_heart_rate_monitor-dummy.m"; sourceTree = "<group>"; };
+		5CCF922D510C9CCA0B7F540D94E1FB93 /* Pods-ios_heart_rate_monitor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios_heart_rate_monitor-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F832E992A981E1693EC6A22EDEE1F21 /* WaitSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WaitSpinner-dummy.m"; sourceTree = "<group>"; };
+		615CF78766DCB639B8AFAFDB16EACCBA /* WaitSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WaitSpinner.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D88F6BA802F321628E7630ECAA3A40D /* Pods-ios_heart_rate_monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios_heart_rate_monitor.release.xcconfig"; sourceTree = "<group>"; };
+		6F0FCD2D42DA7CA225B3F70645B86156 /* WaitSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WaitSpinner.h; path = ios_wait_spinner/Sources/WaitSpinner.h; sourceTree = "<group>"; };
+		788B82CA39B0D3E644744B8317C86848 /* Pods-ios_heart_rate_monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios_heart_rate_monitor.debug.xcconfig"; sourceTree = "<group>"; };
+		90F8D49F0ED23822DD40F43160BEC785 /* WaitSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WaitSpinner.m; path = ios_wait_spinner/Sources/WaitSpinner.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAF11421E82951792725CC6CD937C655 /* WaitSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WaitSpinner-prefix.pch"; sourceTree = "<group>"; };
+		DFC081E60B252AA67C51DA93A921122C /* libPods-ios_heart_rate_monitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ios_heart_rate_monitor.a"; path = "libPods-ios_heart_rate_monitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA45BE387E8A3A3EF3940CE586CD2707 /* Pods-ios_heart_rate_monitor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios_heart_rate_monitor-resources.sh"; sourceTree = "<group>"; };
+		FE0FBA8C0FB948006373F8DDF7151F81 /* libWaitSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWaitSpinner.a; path = libWaitSpinner.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28C542D1F379BFDA66354D99CB90E89D /* Frameworks */ = {
+		08D66CCBE3D258D3DCCB09F235D6AEFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF26866CCECF7B449E3B56D9519D75D /* Foundation.framework in Frameworks */,
+				66A181FEDC234FC02595F0FC8F8B6002 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C1FE890DE2D63DB883812F0E760FA31 /* Frameworks */ = {
+		286967CF07BFB1030F5B437053B65127 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F6239D287F783AC12811675872E1BF /* Foundation.framework in Frameworks */,
+				B5E278E371FC1FAD56BB800CF0A00B48 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+		46C1269BB366C1276486D9280156F3D3 /* Pods-ios_heart_rate_monitor */ = {
 			isa = PBXGroup;
 			children = (
-				6BD370494A6418B89E8B67476ED46D74 /* Foundation.framework */,
+				3EEA98F433F6A41A0EC2703CBD794FD4 /* Pods-ios_heart_rate_monitor-acknowledgements.markdown */,
+				5CCF922D510C9CCA0B7F540D94E1FB93 /* Pods-ios_heart_rate_monitor-acknowledgements.plist */,
+				4CFD460CE8002194ED1B398CA066792C /* Pods-ios_heart_rate_monitor-dummy.m */,
+				4CEEE92A01A457B264B6A138E7370F1C /* Pods-ios_heart_rate_monitor-frameworks.sh */,
+				FA45BE387E8A3A3EF3940CE586CD2707 /* Pods-ios_heart_rate_monitor-resources.sh */,
+				788B82CA39B0D3E644744B8317C86848 /* Pods-ios_heart_rate_monitor.debug.xcconfig */,
+				6D88F6BA802F321628E7630ECAA3A40D /* Pods-ios_heart_rate_monitor.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-ios_heart_rate_monitor";
+			path = "Target Support Files/Pods-ios_heart_rate_monitor";
+			sourceTree = "<group>";
+		};
+		4BA5EDA8493A12BA38541597A6EFFA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFC081E60B252AA67C51DA93A921122C /* libPods-ios_heart_rate_monitor.a */,
+				FE0FBA8C0FB948006373F8DDF7151F81 /* libWaitSpinner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C076841B5CB9F9DA575C708E9BD1A38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				615CF78766DCB639B8AFAFDB16EACCBA /* WaitSpinner.xcconfig */,
+				5F832E992A981E1693EC6A22EDEE1F21 /* WaitSpinner-dummy.m */,
+				AAF11421E82951792725CC6CD937C655 /* WaitSpinner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WaitSpinner";
+			sourceTree = "<group>";
+		};
+		68972B283328F732A14979A68676C317 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C1269BB366C1276486D9280156F3D3 /* Pods-ios_heart_rate_monitor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77827045DE273609A71D73BE964DFEF2 /* WaitSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				6F0FCD2D42DA7CA225B3F70645B86156 /* WaitSpinner.h */,
+				90F8D49F0ED23822DD40F43160BEC785 /* WaitSpinner.m */,
+				4C076841B5CB9F9DA575C708E9BD1A38 /* Support Files */,
+			);
+			name = WaitSpinner;
+			path = WaitSpinner;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C53A8A6EAB6E1849B136FD7448E3D18D /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+				4BA5EDA8493A12BA38541597A6EFFA00 /* Products */,
+				68972B283328F732A14979A68676C317 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
-				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
-				C3F6AF93B9A841DA8C551C063F70BA09 /* Pods-dummy.m */,
-				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
-				72F45B9E120E28A258B4FF5B5D6CA297 /* Pods.debug.xcconfig */,
-				4BF025857AF13ACF1FB71D978B0FABE3 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,71 +140,40 @@
 		C53A8A6EAB6E1849B136FD7448E3D18D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC0840FECF5929329CEFE1E22791E3CF /* WaitSpinner */,
+				77827045DE273609A71D73BE964DFEF2 /* WaitSpinner */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CC0840FECF5929329CEFE1E22791E3CF /* WaitSpinner */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D96BECA85E3A36DF16866FB4B661B2C2 /* WaitSpinner.h */,
-				3D4FDD750AB74566CAA3F4C95E9D1576 /* WaitSpinner.m */,
-				E3852674BB53177F934847E6C13C2518 /* Support Files */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
-			path = WaitSpinner;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13390D561C5560E02CF6589B6FC5ACA8 /* libPods.a */,
-				C4BBFCDAC0CDEBF70EDD06A680C92DEC /* libWaitSpinner.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E3852674BB53177F934847E6C13C2518 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D39AB985732F63AC6DA6EBFB3C88A907 /* WaitSpinner.xcconfig */,
-				8BDF449BA368C29B22A0AC43559DE75C /* WaitSpinner-Private.xcconfig */,
-				DD2370F847D88EB855EAD39CBCF567DA /* WaitSpinner-dummy.m */,
-				9334F229751C833C3B868CAF2C1AA983 /* WaitSpinner-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WaitSpinner";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		672D3F32C87A746E8C92ECEECF556AC3 /* Headers */ = {
+		CBFC10463D4C390E805A7F504B4B4699 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D9D7098E7916637A776B2734E93F49 /* WaitSpinner.h in Headers */,
+				09CA7A356F7B3B4E13D5945B741B1ED2 /* WaitSpinner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A3716AD8539AE983AB5B74DD5F02ECE9 /* WaitSpinner */ = {
+		0C07B5E6CF6F67461FF583C6E6F23BBB /* WaitSpinner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29FB9749C34605D1EC04004476D87081 /* Build configuration list for PBXNativeTarget "WaitSpinner" */;
+			buildConfigurationList = 0C7FD54F688F9B2B4BF30CEBABDD77D2 /* Build configuration list for PBXNativeTarget "WaitSpinner" */;
 			buildPhases = (
-				713FD6215447090197B9C51B567E516D /* Sources */,
-				2C1FE890DE2D63DB883812F0E760FA31 /* Frameworks */,
-				672D3F32C87A746E8C92ECEECF556AC3 /* Headers */,
+				D0B0AEF3A18FD56283C0EFFAF0029980 /* Sources */,
+				286967CF07BFB1030F5B437053B65127 /* Frameworks */,
+				CBFC10463D4C390E805A7F504B4B4699 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -180,24 +181,24 @@
 			);
 			name = WaitSpinner;
 			productName = WaitSpinner;
-			productReference = C4BBFCDAC0CDEBF70EDD06A680C92DEC /* libWaitSpinner.a */;
+			productReference = FE0FBA8C0FB948006373F8DDF7151F81 /* libWaitSpinner.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ECF8159548C41F85BEB0C9B6DC1BFA14 /* Pods */ = {
+		FEB6688F062D8856E450BAA1023574E4 /* Pods-ios_heart_rate_monitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2448F35DFFE54F3CB235957244E36FF /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 3A50944C7DD1164CD1274F84135BF1EF /* Build configuration list for PBXNativeTarget "Pods-ios_heart_rate_monitor" */;
 			buildPhases = (
-				174BBC7C47C08CB869C81235BDE8CC1A /* Sources */,
-				28C542D1F379BFDA66354D99CB90E89D /* Frameworks */,
+				5D2808A996533E7EC104157BD37F1609 /* Sources */,
+				08D66CCBE3D258D3DCCB09F235D6AEFE /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E79677E3A2406FB95E43C63A645B5180 /* PBXTargetDependency */,
+				20959A24F0ACA921BE31DAEA7989D34F /* PBXTargetDependency */,
 			);
-			name = Pods;
-			productName = Pods;
-			productReference = 13390D561C5560E02CF6589B6FC5ACA8 /* libPods.a */;
+			name = "Pods-ios_heart_rate_monitor";
+			productName = "Pods-ios_heart_rate_monitor";
+			productReference = DFC081E60B252AA67C51DA93A921122C /* libPods-ios_heart_rate_monitor.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +207,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -217,82 +218,122 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 4BA5EDA8493A12BA38541597A6EFFA00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECF8159548C41F85BEB0C9B6DC1BFA14 /* Pods */,
-				A3716AD8539AE983AB5B74DD5F02ECE9 /* WaitSpinner */,
+				FEB6688F062D8856E450BAA1023574E4 /* Pods-ios_heart_rate_monitor */,
+				0C07B5E6CF6F67461FF583C6E6F23BBB /* WaitSpinner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		174BBC7C47C08CB869C81235BDE8CC1A /* Sources */ = {
+		5D2808A996533E7EC104157BD37F1609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7BF4AD6874B1B579DFE42103FBE4E92 /* Pods-dummy.m in Sources */,
+				FB8B6E9BB190BB19429E68F1D47EBBFE /* Pods-ios_heart_rate_monitor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		713FD6215447090197B9C51B567E516D /* Sources */ = {
+		D0B0AEF3A18FD56283C0EFFAF0029980 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29A6DBC14B814BF746EB6409CE0929D5 /* WaitSpinner-dummy.m in Sources */,
-				C6DBC4BDB28982664A244E5AD43DCACC /* WaitSpinner.m in Sources */,
+				F5F15498C8FC07E72B074CFEB9AF8503 /* WaitSpinner-dummy.m in Sources */,
+				661D8B74FC7DE4D9788915A9530BD7D9 /* WaitSpinner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E79677E3A2406FB95E43C63A645B5180 /* PBXTargetDependency */ = {
+		20959A24F0ACA921BE31DAEA7989D34F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WaitSpinner;
-			target = A3716AD8539AE983AB5B74DD5F02ECE9 /* WaitSpinner */;
-			targetProxy = 921BB4CBFECD1350A61F2BA917727F98 /* PBXContainerItemProxy */;
+			target = 0C07B5E6CF6F67461FF583C6E6F23BBB /* WaitSpinner */;
+			targetProxy = 3822792156741D38D989C82AA38C6DB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A6980D3D016B011B81B9F1EB4E06846 /* Debug */ = {
+		44B5C7EF18AD78351F49387267677A30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BDF449BA368C29B22A0AC43559DE75C /* WaitSpinner-Private.xcconfig */;
+			baseConfigurationReference = 6D88F6BA802F321628E7630ECAA3A40D /* Pods-ios_heart_rate_monitor.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WaitSpinner/WaitSpinner-prefix.pch";
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6414846AE3FD60C04434A1A35753FF0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BF025857AF13ACF1FB71D978B0FABE3 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+		6F2F9595119BB8B310BEA3833BAA0E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615CF78766DCB639B8AFAFDB16EACCBA /* WaitSpinner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WaitSpinner/WaitSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		7228F2E600F731FCC54A8C6140CC9406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788B82CA39B0D3E644744B8317C86848 /* Pods-ios_heart_rate_monitor.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92766C5EB5D8E2B2D7FA4517E3221E37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -300,17 +341,23 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -323,31 +370,19 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		91029B77AD924265898C6CFD259B7CCC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BDF449BA368C29B22A0AC43559DE75C /* WaitSpinner-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WaitSpinner/WaitSpinner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+		A809BE8D78489167E81F4DC31B6EED6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -355,16 +390,23 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -372,36 +414,45 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		E87A737967C79DED322AEF0064D39E60 /* Debug */ = {
+		F32868E56CDA807B80E8EE349AE24659 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72F45B9E120E28A258B4FF5B5D6CA297 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 615CF78766DCB639B8AFAFDB16EACCBA /* WaitSpinner.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WaitSpinner/WaitSpinner-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29FB9749C34605D1EC04004476D87081 /* Build configuration list for PBXNativeTarget "WaitSpinner" */ = {
+		0C7FD54F688F9B2B4BF30CEBABDD77D2 /* Build configuration list for PBXNativeTarget "WaitSpinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A6980D3D016B011B81B9F1EB4E06846 /* Debug */,
-				91029B77AD924265898C6CFD259B7CCC /* Release */,
+				6F2F9595119BB8B310BEA3833BAA0E59 /* Debug */,
+				F32868E56CDA807B80E8EE349AE24659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -409,17 +460,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
-				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+				92766C5EB5D8E2B2D7FA4517E3221E37 /* Debug */,
+				A809BE8D78489167E81F4DC31B6EED6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2448F35DFFE54F3CB235957244E36FF /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		3A50944C7DD1164CD1274F84135BF1EF /* Build configuration list for PBXNativeTarget "Pods-ios_heart_rate_monitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E87A737967C79DED322AEF0064D39E60 /* Debug */,
-				6414846AE3FD60C04434A1A35753FF0E /* Release */,
+				7228F2E600F731FCC54A8C6140CC9406 /* Debug */,
+				44B5C7EF18AD78351F49387267677A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
